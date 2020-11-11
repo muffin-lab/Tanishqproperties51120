@@ -470,6 +470,11 @@ p {
 }
 
 #about .col-right {
+  width: 80%;
+  margin: auto;
+}
+
+#about .col-right-agent {
   width: 100%;
 }
 
@@ -503,7 +508,7 @@ p {
   position: absolute;
   left: -33px;
   top: 19px;
-  height: 98%;
+  height: 100%;
   width: 98%;
   border: 7px solid #4DAADD;
   z-index: -1;
