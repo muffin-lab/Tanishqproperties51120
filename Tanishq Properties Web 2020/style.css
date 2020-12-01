@@ -55,7 +55,8 @@ p {
 }
 
 .section-title span {
-  color: #4DAADD;
+  /* color: #4DAADD; */
+  color: #f43c04;
 }
 
 .cta {
@@ -63,7 +64,8 @@ p {
   padding: 10px 30px;
   color: white;
   background-color: transparent;
-  border: 2px solid #4DAADD;
+  /* border: 2px solid #4DAADD; */
+  border: 2px solid #f43c04;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -74,20 +76,21 @@ p {
 
 .cta:hover {
   color: white;
-  background-color: #4DAADD;
+  /* background-color: #4DAADD; */
+  background-color: #f43c04;
 }
 
 .brand h1 {
   font-size: 3rem;
   font-weight: normal;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Maven Pro', sans-serif;
   text-transform: uppercase;
   color: white;
-  font-family: 'Audiowide', cursive;
 }
 
 .brand h1 span {
-  color: #4DAADD;
+  /* color: #4DAADD; */
+  color: #f43c04;
 }
 
 /* Header section */
@@ -167,7 +170,8 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-  color: #4DAADD;
+  /* color: #4DAADD; */
+  color: #f43c04;
 }
 
 #header .hamburger {
@@ -291,7 +295,8 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: #4DAADD;
+  /* background-color: #4DAADD; */
+  background-color: #f43c04;
   animation: text_reveal_box 1s ease;
   animation-delay: .5s;
 }
@@ -517,7 +522,8 @@ p {
   top: 19px;
   height: 100%;
   width: 98%;
-  border: 7px solid #4DAADD;
+  /* border: 7px solid #4DAADD; */
+  border: 7px solid #f43c04;
   z-index: -1;
 }
 
@@ -665,7 +671,8 @@ p {
 
 @keyframes text_reveal_name {
   100% {
-    color: #4DAADD;
+    /* color: #4DAADD; */
+    color: #f43c04;
     font-weight: 500;
   }
 }
@@ -736,7 +743,8 @@ p {
     top: 34px;
     height: 98%;
     width: 98%;
-    border: 10px solid #4DAADD;
+    /* border: 10px solid #4DAADD; */
+    border: 10px solid #f43c04;
   }
 
   #about .col-right {
