@@ -453,6 +453,11 @@ p {
   color: white;
 }
 
+#projects .project-info p {
+  animation: slidein 3s ease;
+  animation-delay: .5s;
+}
+
 #projects .project-info h1 {
   font-size: 4rem;
   font-weight: 500;
@@ -492,6 +497,18 @@ p {
 
 #projects .project-item:hover .project-img img {
   transform: scale(1.1);
+}
+
+.rent-rates {
+  border: 2px solid #f43c04;
+  padding: 5px 10px;
+  border-radius: 15px;
+  animation: border_anim 1.5s ease infinite;
+  animation-delay: .5s;
+}
+
+.rent-rates:hover {
+  background-color: #f43c04;
 }
 
 /* End Projects section */
@@ -683,6 +700,24 @@ p {
   }
 }
 
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+
+  20% {
+    margin-left: -800px;
+  }
+
+  35% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+
 @keyframes text_reveal_box {
   50% {
     width: 100%;
@@ -698,6 +733,16 @@ p {
 @keyframes text_reveal {
   100% {
     color: white;
+  }
+}
+
+@keyframes border_anim {
+  35% {
+    border: 2px solid #fff;
+  }
+
+  65% {
+    border: 2px solid #fff;
   }
 }
 
